@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account & Data Deletion Request — MS Kids</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563EB;
+            --primary-dark: #1E40AF;
+            --bg-dark: #0F172A;
+            --card-bg: #FFFFFF;
+            --text-main: #1E293B;
+            --text-muted: #64748B;
+            --bg-light: #F8FAFC;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.7;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .brand img {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+        }
+
+        .brand span {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 2.5rem;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border: 1px solid #E2E8F0;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-top: 1.8rem;
+            margin-bottom: 0.75rem;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p, ul {
+            color: #334155;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .box {
+            background: #EFF6FF;
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            color: #1E40AF;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #CBD5E1;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: var(--primary-dark);
+        }
+
+        a {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        footer {
+            background: var(--bg-dark);
+            color: white;
+            padding: 2.5rem 2rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        .copyright {
+            color: #64748B;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="brand">
+                <img src="icon.png" alt="MS Kids Logo">
+                <span>MS KIDS</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="delete-account.html" class="active">Account Deletion</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Account & Data Deletion Request</h1>
+        <div class="subtitle">Request permanent deletion or revocation of your MS Kids parent account and associated data.</div>
+
+        <div class="box">
+            🔑 <strong>Direct Google Account Revocation:</strong> Because MS Kids uses Google Sign-In, you have instant, 100% control to revoke app permissions directly from your Google Account at any time.
+        </div>
+
+        <h2>How to Revoke Access & Delete Your Data</h2>
+
+        <h3>Option 1: Direct Google Account Revocation (Instant)</h3>
+        <p>You can instantly revoke MS Kids access directly from your Google Account settings:</p>
+        <ul>
+            <li>Open <a href="https://myaccount.google.com/connections" target="_blank"><strong>myaccount.google.com/connections</strong></a> in any browser.</li>
+            <li>Select <strong>MS Kids</strong> under <i>Third-party apps & services</i>.</li>
+            <li>Click <strong>Delete all connections / Remove access</strong> to instantly revoke sign-in permissions.</li>
+        </ul>
+
+        <h3>Option 2: Direct In-App Account Sign Out & Wipe</h3>
+        <ul>
+            <li>Open the <strong>MS Kids</strong> app on your Android device.</li>
+            <li>Go to <strong>Settings ⚙️</strong> → <strong>User Profile Card</strong>.</li>
+            <li>Tap <strong>Sign Out</strong> to disconnect your Google account and wipe local cache.</li>
+        </ul>
+
+        <h3>Option 3: Web Deletion Request Form</h3>
+        <p>If you no longer have the app installed, fill out the request form below to request complete deletion from our Firebase Firestore servers:</p>
+
+        <form action="mailto:mukeshsaw.support@example.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="email">Registered Google Email Address:</label>
+                <input type="email" id="email" name="Email" placeholder="your-google-email@gmail.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="reason">Reason for Request (Optional):</label>
+                <select id="reason" name="Reason">
+                    <option value="No longer using the app">No longer using the app</option>
+                    <option value="Privacy concerns">Privacy concerns</option>
+                    <option value="Children have grown up">Children have grown up</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="details">Additional Notes (Optional):</label>
+                <textarea id="details" name="Notes" rows="3" placeholder="Specify any specific profiles or data to erase..."></textarea>
+            </div>
+
+            <button type="submit" class="btn">Submit Deletion Request 🗑️</button>
+        </form>
+
+        <h2>What Data is Deleted?</h2>
+        <p>When an account deletion request is processed or revoked:</p>
+        <ul>
+            <li>Your Parent Profile (Name, Avatar, Image Path, PIN, Pattern, Security Answers).</li>
+            <li>All Child Profiles associated with your parent account.</li>
+            <li>App usage statistics, challenge quiz histories, and timer configuration records.</li>
+            <li>Firebase Authentication tokens and Firestore documents (<code>users/{userId}</code>).</li>
+        </ul>
+
+        <h2>Data Retention Policy</h2>
+        <p>We do not retain any user or child data after account deletion. All cloud records are erased immediately upon processing.</p>
+    </div>
+
+    <footer>
+        <p class="copyright">&copy; 2026 MS Kids. Developed by Mukesh. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
