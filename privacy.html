@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — MS Kids</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563EB;
+            --primary-dark: #1E40AF;
+            --bg-dark: #0F172A;
+            --card-bg: #FFFFFF;
+            --text-main: #1E293B;
+            --text-muted: #64748B;
+            --bg-light: #F8FAFC;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.7;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .brand img {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+        }
+
+        .brand span {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 2.5rem;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border: 1px solid #E2E8F0;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .last-updated {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p, ul {
+            color: #334155;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background: #EFF6FF;
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            color: #1E40AF;
+            font-weight: 500;
+        }
+
+        footer {
+            background: var(--bg-dark);
+            color: white;
+            padding: 2.5rem 2rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        .copyright {
+            color: #64748B;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="brand">
+                <img src="icon.png" alt="MS Kids Logo">
+                <span>MS KIDS</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="privacy.html" class="active">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="last-updated">Last Updated: September 2026</div>
+
+        <div class="highlight-box">
+            🔒 <strong>Zero Data Selling Guarantee:</strong> MS Kids strictly DOES NOT sell, trade, or share family or child personal data with 3rd-party advertisers, data brokers, or marketing networks.
+        </div>
+
+        <h2>1. Overview & Commitment</h2>
+        <p>MS Kids ("we", "our", or "us") is dedicated to protecting the privacy and safety of families and children. This Privacy Policy outlines how our application collects, uses, and safeguards information when parents and children use the MS Kids Parental Control and Learning Application.</p>
+
+        <h2>2. Information We Collect</h2>
+        <ul>
+            <li><strong>Parent Account Information:</strong> When you sign in using Google Sign-In, we collect your Google Account email address and display name strictly for account identification and private cloud backup.</li>
+            <li><strong>Family Profiles Data:</strong> Parent and child profile names, ages, classes, avatars, and profile photos configured by parents.</li>
+            <li><strong>App Usage Statistics:</strong> Daily foreground app usage durations, challenge quiz scores, and daily time limits generated on your device.</li>
+        </ul>
+
+        <h2>3. Prominent System Permissions Disclosure</h2>
+        <p>MS Kids requires specific Android system permissions to deliver parental control features:</p>
+        <ul>
+            <li><strong>Usage Access (PACKAGE_USAGE_STATS):</strong> Used exclusively to detect active foreground applications and calculate daily time limits.</li>
+            <li><strong>System Overlay (SYSTEM_ALERT_WINDOW):</strong> Used exclusively to display time's up interruption screens over restricted apps when time limits expire.</li>
+            <li><strong>Device Admin (BIND_DEVICE_ADMIN):</strong> An optional feature used exclusively to prevent unauthorized uninstallation of MS Kids by children.</li>
+        </ul>
+
+        <h2>4. Children's Privacy (COPPA & Families Policy)</h2>
+        <p>MS Kids is built specifically for parents to protect and educate children. We comply with the Children's Online Privacy Protection Act (COPPA) and Google Play Families Policies:</p>
+        <ul>
+            <li>We do not track or profile children for behavioral or targeted advertising.</li>
+            <li>We do not collect personal contact information directly from children.</li>
+            <li>Parents maintain 100% control over child profile creation, modification, and deletion.</li>
+        </ul>
+
+        <h2>5. Private Cloud Storage & Security</h2>
+        <p>All family profiles, app restriction rules, and challenge histories are securely transmitted and stored in your private Firebase Firestore cloud document (<code>users/{userId}</code>) using encrypted TLS connections. Access is restricted to your authenticated account.</p>
+
+        <h2>6. Account & Data Deletion Rights</h2>
+        <p>Parents have the right to delete child profiles or their entire parent account data at any time directly within MS Kids settings or by requesting account deletion.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact the developer:</p>
+        <p><strong>Developer:</strong> Mukesh<br>
+        <strong>Application:</strong> MS Kids<br>
+        <strong>Email Support:</strong> Available via MS Kids App Support</p>
+    </div>
+
+    <footer>
+        <p class="copyright">&copy; 2026 MS Kids. Developed by Mukesh. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
